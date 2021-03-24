@@ -2561,9 +2561,10 @@ input, select, textarea {
 			margin: 0 0 1.5em 0;
 		}
 
-		.work-item h3 {
+		.work-item h3 { /* Title of people's name*/
 			font-size: 1em;
 			margin: 0 0 0.5em 0;
+			text-align: center;
 		}
 
 		.work-item p {
