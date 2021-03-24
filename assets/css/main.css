@@ -2551,7 +2551,7 @@ input, select, textarea {
 			cursor: default;
 		}
 
-/* Work Item */
+/* Work Item : Fonts and alignment of the descriptions, title -------------------------------------------------*/
 
 	.work-item {
 		margin: 0 0 2em 0;
@@ -2571,6 +2571,7 @@ input, select, textarea {
 			font-size: 0.8em;
 			line-height: 1.5em;
 			margin: 0;
+			text-align: center;
 		}
 
 /* Header */
