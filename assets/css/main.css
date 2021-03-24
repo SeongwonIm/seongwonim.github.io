@@ -2073,7 +2073,7 @@ input, select, textarea {
 				border-radius: 0.35em;
 				border: solid 3px rgba(255, 255, 255, 0.5);
 				color: #fff;
-				content: 'Website'; /* ------ Change the word that comes up when cursor is on the image ---------- */
+				content: 'About'; /* ------ Change the word that comes up when cursor is on the image ---------- */
 				display: inline-block;
 				font-size: 0.8em;
 				font-weight: 400;
