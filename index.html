@@ -42,34 +42,8 @@
 				</nav>
 				  
 
-				<div id="tab-about" class="tab-content">
+				<div id="tab-about" class="tab-content" style="display: block;">
 					<!-- your existing "About Me" section content here -->
-					<h2>ABOUT ME</h2>
-					<p>This is your About content.</p>
-				  </div>
-				  
-				  <div id="tab-research" class="tab-content" style="display: none;">
-					<h2>RESEARCH</h2>
-					<p>This is your Research content.</p>
-				  </div>
-				  
-				  <div id="tab-projects" class="tab-content" style="display: none;">
-					<h2>PROJECTS</h2>
-					<p>This is your Projects content.</p>
-				  </div>
-				  
-				  <div id="tab-learning" class="tab-content" style="display: none;">
-					<h2>LEARNING JOURNAL</h2>
-					<p>This is your Learning content (e.g. rstan, brms, etc.).</p>
-				  </div>
-
-				  <div id="tab-learning" class="tab-content" style="display: none;">
-					<h2>PEOPLE</h2>
-					<p>This is your People content (e.g. rstan, brms, etc.).</p>
-				  </div>
-				  
-
-				<!-- Section One -->
 					<section id="one">
 						<header class="major">
 							<h2>ABOUT ME<br /> </h2><!-- Title Header -->
@@ -98,66 +72,142 @@
 							<a href="images/resume/CV_SI.pdf" target="_blank" class = "button">View CV</a>
 						</ul>
 					</section>
-					
-				<!-- Section Two -->
-					<section id="three">
-						<h2>Recent Work <br /> </h2>
-					<div class="row">
+				  </div>
+				  
+				  <div id="tab-research" class="tab-content" style="display: none;">
+					<section id="research-section">
+					  <header class="major">
+						<h2>RESEARCH</h2>
+					  </header>
+				  
+					  <p>I focus on Bayesian methods, causal inference, and real-world applications across public health and policy.</p>
+				  
+					  <strong>Topics of Interest:</strong>
+					  <ul>
+						<li>Bayesian nonparametrics</li>
+						<li>Distributed lag models (DLMs)</li>
+						<li>Bayesian causal inference using <code>brms</code> and <code>rstan</code></li>
+						<li>Health effects of air pollution and climate</li>
+					  </ul>
+				  
+					  <strong>Recent Papers:</strong>
+					  <ul>
+						<li>
+						  <a href="https://pubs.acs.org/doi/10.1021/acs.est.2c00097" target="_blank">
+							Environmental Justice of Natural Gas Leaks
+						  </a>
+						  <br><em>Environmental Science & Technology, 2022</em>
+						</li>
+						<li>
+						  Tree-Structured Bayesian DLMs (R package: <a href="https://danielmork.github.io/dlmtree/" target="_blank">dlmtree</a>)
+						</li>
+					  </ul>
+				  
+					  <strong>Methods in Use:</strong>
+					  <ul>
+						<li>Bayesian regression using <code>brms</code></li>
+						<li>Custom modeling via <code>rstan</code></li>
+						<li>Posterior diagnostics and uncertainty visualization</li>
+					  </ul>
+				  
+					  <a href="images/resume/CV_SI.pdf" class="button" target="_blank">View Full CV</a>
+					</section>
+				  </div>		  
+				  
+				  <div id="tab-projects" class="tab-content" style="display: none;">
+					<section id="projects-section">
+					  <header class="major">
+						<h2>PROJECTS</h2>
+					  </header>
+				  
+					  <div class="row">
 						<article class="col-6 col-12-xsmall work-item">
-							<a href="https://pubs.acs.org/doi/10.1021/acs.est.2c00097" class="image fit thumb"><img src="images/projects/gaspipe.jpeg" alt="" /></a>
-							<h3>Environmental Justice of Natural Gas leaks</h3>
-							<p>Environmental Science & Technology (ES&T)</p>
+						  <a href="https://pubs.acs.org/doi/10.1021/acs.est.2c00097" class="image fit thumb">
+							<img src="images/projects/gaspipe.jpeg" alt="" />
+						  </a>
+						  <h3>Environmental Justice of Natural Gas Leaks</h3>
+						  <p>Environmental Science & Technology (ES&T)</p>
 						</article>
+				  
 						<article class="col-6 col-12-xsmall work-item">
-							<a href="https://www.bloomberg.com/news/articles/2022-05-11/study-finds-more-gas-leaks-in-minority-neighborhoods" class="image fit thumb"><img src="images/projects/EJ_bloomberg.jpeg" alt="" /></a>
-							<h3>Study Finds Higher Density of Gas Leaks Where People of Color Live</h3>
-							<p>Bloomberg</p>
+						  <a href="https://www.bloomberg.com/news/articles/2022-05-11/study-finds-more-gas-leaks-in-minority-neighborhoods" class="image fit thumb">
+							<img src="images/projects/EJ_bloomberg.jpeg" alt="" />
+						  </a>
+						  <h3>Study Finds Higher Density of Gas Leaks Where People of Color Live</h3>
+						  <p>Bloomberg</p>
 						</article>
+				  
 						<article class="col-6 col-12-xsmall work-item">
-							<a href="https://danielmork.github.io/dlmtree/" class="image fit thumb"><img src="images/projects/dlmtree_hex_rec.png" alt="" /></a>
-							<h3>Tree Structured Distributed Lag Models</h3>
-							<p>R package: dlmtree</p>
+						  <a href="https://danielmork.github.io/dlmtree/" class="image fit thumb">
+							<img src="images/projects/dlmtree_hex_rec.png" alt="" />
+						  </a>
+						  <h3>Tree Structured Distributed Lag Models</h3>
+						  <p>R package: dlmtree</p>
 						</article>
-						<!-- <article class="col-6 col-12-xsmall work-item">
-							<a href="https://cen.acs.org/environment/pollution/Environmental-injustice-linked-urban-natural/100/web/2022/05" class="image fit thumb"><img src="images/projects/EJ_cnen.jpeg" alt="" /></a>
-							<h3>Environmental injustice linked to urban natural gas leaks</h3>
-							<p>Chemical & Engineering News (C&EN)</p>
-						</article>
-						<article class="col-6 col-12-xsmall work-item">
-							<a href="https://www.keranews.org/2022-05-11/poor-neighborhoods-and-communities-of-color-disproportionately-exposed-to-natural-gas-leaks" class="image fit thumb"><img src="images/projects/EJ_kera.jpeg" alt="" /></a>
-							<h3>Poor neighborhoods and communities of color disproportionately exposed to natural gas leaks</h3>
-							<p>Kera News</p>
-						</article> -->
-					</div>
-				</section>
+					  </div>
+					</section>
+				  </div>				  
+				  
+				  <div id="tab-learning" class="tab-content" style="display: none;">
+					<section id="learning-section">
+					  <header class="major">
+						<h2>LEARNING JOURNAL</h2>
+					  </header>
+				  
+					  <p>This is your Learning content (e.g. <code>rstan</code>, <code>brms</code>, etc.).</p>
+				  
+					  <ul>
+						<li>Hands-on replication of Bayesian models using <code>rstan</code></li>
+						<li>Exploration of statistical computation techniques</li>
+						<li>Notes on distributed lag models and causal inference</li>
+					  </ul>
+				  
+					  <p>You can also link to your GitHub repos or host visuals here as you build out the journal.</p>
+					</section>
+				  </div>
+				  
 
-				<!-- Section Three -->
-				<section id="three">
-					<h2> People </h2>
-					<div class="row">
+				  <div id="tab-people" class="tab-content" style="display: none;">
+					<section id="people-section">
+					  <header class="major">
+						<h2>PEOPLE</h2>
+					  </header>
+				  
+					  <div class="row">
 						<article class="col-3 col-12-xsmall work-item">
-							<a href="https://sites.google.com/site/zachdweller/home" class="image fit thumb"><img src="images/people/zach.png" alt="" /></a>
-							<h3>Zachary D. Weller</h3>
-							<p> Institute Scientist <br /> GTI Energy
-							</p>
+						  <a href="https://sites.google.com/site/zachdweller/home" class="image fit thumb">
+							<img src="images/people/zach.png" alt="Zachary D. Weller" />
+						  </a>
+						  <h3>Zachary D. Weller</h3>
+						  <p>Institute Scientist<br />GTI Energy</p>
 						</article>
+				  
 						<article class="col-3 col-12-xsmall work-item">
-							<a href="https://anderwilson.github.io/" class="image fit thumb"><img src="images/people/ander.jpeg" alt="" /></a>
-							<h3>Ander Wilson</h3>
-							<p> Assistant Professor <br /> Department of Statistics <br /> Colorado State University
+						  <a href="https://anderwilson.github.io/" class="image fit thumb">
+							<img src="images/people/ander.jpeg" alt="Ander Wilson" />
+						  </a>
+						  <h3>Ander Wilson</h3>
+						  <p>Assistant Professor<br />Statistics, CSU</p>
 						</article>
+				  
 						<article class="col-3 col-12-xsmall work-item">
-							<a href="https://danielmork.github.io/" class="image fit thumb"><img src="images/people/dan.jpeg" alt="" /></a>
-							<h3>Daniel Mork</h3>
-							<p> Research Associate <br /> Department of Biostatistics <br /> Harvard University
+						  <a href="https://danielmork.github.io/" class="image fit thumb">
+							<img src="images/people/dan.jpeg" alt="Daniel Mork" />
+						  </a>
+						  <h3>Daniel Mork</h3>
+						  <p>Research Associate<br />Biostatistics, Harvard</p>
 						</article>
+				  
 						<article class="col-3 col-12-xsmall work-item">
-							<a href="https://vonfischerlab.colostate.edu/people/joe-von-fischer/" class="image fit thumb"><img src="images/people/noone.jpeg" alt="" /></a>
-							<h3>Joe von Fischer</h3>
-							<p> Assistant Professor <br /> Department of Biology <br /> Colorado State University
+						  <a href="https://vonfischerlab.colostate.edu/people/joe-von-fischer/" class="image fit thumb">
+							<img src="images/people/noone.jpeg" alt="Joe von Fischer" />
+						  </a>
+						  <h3>Joe von Fischer</h3>
+						  <p>Assistant Professor<br />Biology, CSU</p>
 						</article>
-					</div>
-				</section>
+					  </div>
+					</section>
+				  </div>				  
 			</div>
 
 		<!-- Footer -->
