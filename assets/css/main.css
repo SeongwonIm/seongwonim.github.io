@@ -3221,3 +3221,48 @@ input, select, textarea {
 			}
 
 	}
+
+	#nav {
+	text-align: center;
+	margin: 2em 0 2em 0;
+	}
+	
+	#nav ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	}
+	
+	#nav ul li {
+	display: inline-block;
+	margin: 0 1.5em;
+	}
+	
+	#nav ul li a {
+	text-decoration: none;
+	color: #666;
+	font-weight: 500;
+	font-size: 1.05em;
+	border-bottom: 2px solid transparent;
+	padding-bottom: 3px;
+	transition: border-color 0.3s ease, color 0.3s ease;
+	}
+	
+	#nav ul li a:hover {
+	color: #111;
+	border-bottom: 2px solid #888;
+	}
+	
+	#nav ul li a.active {
+	color: #111;
+	border-bottom: 2px solid #000;
+	}
+	
+	.tab-content {
+	display: none;
+	}
+	
+	.tab-content:first-child {
+	display: block;
+	}
+	  
