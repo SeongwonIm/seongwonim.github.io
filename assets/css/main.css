@@ -3242,7 +3242,7 @@ input, select, textarea {
 	text-decoration: none;
 	color: #666;
 	font-weight: 500;
-	font-size: 1.05em;
+	font-size: 1.15em;
 	border-bottom: 2px solid transparent;
 	padding-bottom: 3px;
 	transition: border-color 0.3s ease, color 0.3s ease;
