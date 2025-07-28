@@ -3348,6 +3348,11 @@ input, select, textarea {
   background-color: #4a90e2;  /* calm blue */
 }
 
+/* Communication & Soft Skills */
+.tag-comm {
+  background-color: #9b59b6;  /* vibrant purple */
+}
+
 
 /* Responsive */
 @media screen and (max-width: 768px) {
