@@ -125,19 +125,23 @@
 								<div class="project-content">
 								<h3>R package: dlmtree</h3>
 								<ul>
-									<li>Designed Bayesian tree model for distributed lag effects</li>
-									<li>Implemented efficient MCMC posterior sampler</li>
-									<li>Incorporated mixture exposures, heterogeneity, non-linear exposure-time-response effects</li>
+									<li>Modeled time-varying exposure-response in mixtures using treed DLMs with Bayesian inference for lagged, nonparametric effects.</li>
+									<li>Incorporated mixture exposures, heterogeneity, non-linear exposure-time-response effects.</li>
+									<li>Developed an R package for efficient implementation of treed DLMs, enabling reproducible analysis, Bayesian diagnostics, and visualization.</li>
 								</ul>
 								<div class="project-skills">
 									<span class="skill-tag tag-stat">Bayesian Inference</span>
 									<span class="skill-tag tag-stat">Hierarchical Modeling</span>
+									<span class="skill-tag tag-stat">Variable Selection</span>
 									<span class="skill-tag tag-stat">MCMC</span>
 									<span class="skill-tag tag-code">Rcpp</span>
 									<span class="skill-tag tag-code">Git</span>
 									<span class="skill-tag tag-code">Package Development</span>
+									<span class="skill-tag tag-code">HPC</span>
+									<span class="skill-tag tag-code">Slurm</span>
 									<span class="skill-tag tag-vis">ggplot2</span>
 									<span class="skill-tag tag-vis">Shiny</span>
+									<span class="skill-tag tag-vis">R Markdown</span>
 									</div>
 								</div>
 							</div>
@@ -148,18 +152,18 @@
 								<img src="images/projects/EJ_bloomberg_long.png" alt="EJ logo">
 								</div>
 								<div class="project-content">
-								<h3>Spatial Analysis of Urban Natural Gas Leaks and Environmental Injustice</h3>
+								<h3>Urban Natural Gas Leaks and Environmental Injustice</h3>
 								<ul>
-									<li>Analyzed disparities in gas leak densities across 13 U.S. cities using crowd-sourced methane measurements and census data</li>
-									<li>Identified significant associations between leak prevalence and sociodemographic indicators such as race, ethnicity, and income</li>
-									<li>Highlighted systemic environmental injustice in infrastructure quality, informing equitable policy reform in utility maintenance</li>
+									<li>Developed spatial Bayesian models to estimate leak densities and environmental disparities across 13 U.S. metro areas.</li>
+									<li>Integrated methane sensor data, GIS boundaries, and standardized census predictors to perform spatial analyses.</li>
+									<li>Produced statistically grounded, policy-relevant insights on how race, income, and housing age shape urban infrastructure risks.</li>
 								</ul>
 								<div class="project-skills">
 									<span class="skill-tag tag-stat">Bayesian Inference</span>
 									<span class="skill-tag tag-stat">Spatial Modeling</span>
 									<span class="skill-tag tag-code">RStan</span>
 									<span class="skill-tag tag-vis">ggplot2</span>
-									<span class="skill-tag tag-comm">Interdisciplinary</span>
+									<span class="skill-tag tag-vis">Mapping</span>
 									<span class="skill-tag tag-comm">Consulting</span>
 									</div>
 								</div>
@@ -170,65 +174,98 @@
 				  </div>		  
 				  
 				  <div id="tab-tt" class="tab-content" style="display: none;">
-					<section id="tt-section">
-					  <header class="major">
-						<h2>TEACHING</h2>
-					  </header>
+					<section id="talks-timeline">
+						<header class="major"><h2>TALKS</h2></header>
 
-					  <h3>Classes taught</h3>
-					  <ul>
-						  <li>STAT 201 - General Statistics</li>
-						  <li>STAT 301 - Introduction to Statistical Methods</li>
-						  <li>STAR 511 - Design and Data Analysis for Researchers I: R Software (Tutored)</li>
-					  </ul>
+						<!-- Invited & Oral -->
+						<h3><span class="icon-label"></span> Invited &amp; Oral Presentations</h3>
+						<div class="timeline">
 
-					  <h3>Workshops held</h3>
-					  <ul>
-						  <li>R Basics</li>
-						  <li>Tidy Data in R: Tidyverse</li>
-						  <li>Python: Working with data</li>
-					  </ul>
-					 <hr>
-					 
-					  <header class="major">
-						<h2>TALKS</h2>
-					  </header>
-					  <h3>Invited & Oral Presentations</h3>
-						<ul>
-						<li>
-							Oral presentation, “Treed distributed lag mixture model with zero-inflated count data to investigate the association between air pollution and pregnancy loss”
-							<br><em>Joint Statistical Meetings, American Statistical Association, Toronto, Ontario, Canada – August 2023</em>
-						</li>
-						<li>
-							Oral presentation (virtual), “Environmental justice of natural gas leaks”
-							<br><em>Colorado and Wyoming Chapter, American Statistical Association – October 2021</em>
-						</li>
-						<li>
-							Oral presentation (virtual), “Environmental justice of natural gas leaks”
-							<br><em>Joint Statistical Meetings, American Statistical Association – August 2021</em>
-						</li>
-						<li>
-							Oral presentation (virtual), “Environmental justice of natural gas leaks”
-							<br><em>Front Range Student Ecology Symposium, Colorado State University, Fort Collins, Colorado – March 2021</em>
-						</li>
-						</ul>
+							<div class="year-marker">2023</div>
 
-						<h3>Posters & Contributed Talks</h3>
-						<ul>
-						<li>
-							Poster presentation, “Treed distributed lag mixture model with zero-inflated count data to investigate the association between air pollution and pregnancy loss”
-							<br><em>Graduate Student Showcase, Colorado State University, Fort Collins, Colorado – November 2023</em>
-						</li>
-						<li>
-							Poster presentation, “Treed distributed lag mixture model with zero-inflated count data to investigate the association between air pollution and pregnancy loss”
-							<br><em>EnviBayes Workshop, International Society for Bayesian Analysis, Colorado State University, Fort Collins, Colorado – September 2023</em>
-						</li>
-						<li>
-							Poster presentation, “Treed distributed lag mixture model with zero-inflated count data to investigate the association between air pollution and pregnancy loss”
-							<br><em>Graduate Student Showcase, Colorado State University, Fort Collins, Colorado – November 2022</em>
-						</li>
-						</ul>
-					</section>
+							<div class="talk-item">
+							<div class="talk-card">
+								<strong>Treed distributed lag mixture model with zero-inflated count data to investigate the association between air pollution and pregnancy loss</strong>
+								<div class="meta">
+								<em>Joint Statistical Meetings, American Statistical Association — Toronto, Ontario, Canada</em>
+								<span class="talk-date">Aug 2023</span>
+								</div>
+							</div>
+							</div>
+
+							<div class="year-marker">2021</div>
+
+							<div class="talk-item">
+							<div class="talk-card">
+								<strong>Environmental justice of natural gas leaks</strong>
+								<div class="meta">
+								<em>Colorado &amp; Wyoming Chapter, American Statistical Association</em>
+								<span class="talk-date">Oct 2021</span>
+								</div>
+							</div>
+							</div>
+
+							<div class="talk-item">
+							<div class="talk-card">
+								<strong>Environmental justice of natural gas leaks</strong>
+								<div class="meta">
+								<em>Joint Statistical Meetings, American Statistical Association</em>
+								<span class="talk-date">Aug 2021</span>
+								</div>
+							</div>
+							</div>
+
+							<div class="talk-item">
+							<div class="talk-card">
+								<strong>Environmental justice of natural gas leaks</strong>
+								<div class="meta">
+								<em>Front Range Student Ecology Symposium, Colorado State University — Fort Collins, Colorado</em>
+								<span class="talk-date">Mar 2021</span>
+								</div>
+							</div>
+							</div>
+						</div>
+
+						<!-- Posters & Contributed -->
+						<h3><span class="icon-label"></span> Posters &amp; Contributed Talks</h3>
+						<div class="timeline">
+
+							<div class="year-marker">2023</div>
+
+							<div class="talk-item">
+							<div class="talk-card">
+								<strong>Treed distributed lag mixture model with zero-inflated count data to investigate the association between air pollution and pregnancy loss</strong>
+								<div class="meta">
+								<em>Graduate Student Showcase, Colorado State University — Fort Collins, Colorado</em>
+								<span class="talk-date">Nov 2023</span>
+								</div>
+							</div>
+							</div>
+
+							<div class="talk-item">
+							<div class="talk-card">
+								<strong>Treed distributed lag mixture model with zero-inflated count data to investigate the association between air pollution and pregnancy loss</strong>
+								<div class="meta">
+								<em>EnviBayes Workshop, International Society for Bayesian Analysis — Colorado State University, Fort Collins, Colorado</em>
+								<span class="talk-date">Sep 2023</span>
+								</div>
+							</div>
+							</div>
+
+							<div class="year-marker">2022</div>
+
+							<div class="talk-item">
+							<div class="talk-card">
+								<strong>Treed distributed lag mixture model with zero-inflated count data to investigate the association between air pollution and pregnancy loss</strong>
+								<div class="meta">
+								<em>Graduate Student Showcase, Colorado State University — Fort Collins, Colorado</em>
+								<span class="talk-date">Nov 2022</span>
+								</div>
+							</div>
+							</div>
+
+						</div>
+						</section>
 				  </div>				  
 				  
 				  <!-- <div id="tab-learning" class="tab-content" style="display: none;">

@@ -3318,13 +3318,18 @@ input, select, textarea {
   list-style-type: disc;
 }
 
+.project-content ul li {
+  font-size: 0.9em;
+  line-height: 1.6em;
+}
+
 .project-skills {
   margin-top: 0.5em;
 }
 
 .skill-tag {
   display: inline-block;
-  padding: 0.2em 0.6em;     /* smaller padding */
+  padding: 0.15em 0.6em;     /* smaller padding */
   margin-right: 0.4em;      /* slightly tighter spacing */
   margin-top: 0.25em;
   border-radius: 0.8em;     /* still pill-shaped */
@@ -3393,3 +3398,59 @@ input, select, textarea {
 .project-box-link {
   border-bottom: none !important;
 }
+
+
+/* Talks: Vertical timeline */
+.timeline {
+  position: relative;
+  margin: 1.25em 0 2.5em;
+  padding-left: 1.75em;
+}
+.timeline::before {
+  content: "";
+  position: absolute;
+  left: 0.55em;
+  top: 0.2em;
+  bottom: 0.2em;
+  width: 2px;
+  background: #efefef;
+}
+.year-marker {
+  display: inline-block;
+  background: #49bf9d;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 999px;
+  padding: 0.15em 0.6em;
+  margin: 0.5em 0 0.5em 0;
+}
+.talk-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.9em;
+  margin: 0.9em 0;
+  position: relative;
+}
+.talk-item .dot {
+  flex: 0 0 auto;
+  width: 10px; height: 10px;
+  border-radius: 50%;
+  background: #49bf9d;
+  position: relative;
+  top: 0.45em;
+}
+.talk-card {
+  background: #fff;
+  border: 2px solid #efefef;
+  border-radius: 0.45em;
+  padding: 0.8em 1em;
+  box-shadow: 0 2px 4px rgba(0,0,0,.04);
+}
+.talk-card .meta {
+  margin-top: 0.25em;
+  color: #8c8c8c;
+  display: flex;
+  gap: 0.75em;
+  flex-wrap: wrap;
+}
+.talk-date { color: #b2b2b2; font-size: 0.9em; }
