@@ -15,3 +15,16 @@ Credits:
 	Other:
 		jQuery (jquery.com)
 		Responsive Tools (github.com/ajlkn/responsive-tools)
+
+
+## License
+
+The source code for this website is licensed under the MIT License.
+
+All personal content — including text, images, CV details, branding,
+and project descriptions — is © Seongwon Im and is not licensed
+for reuse.
+
+Forks and adaptations of the code are welcome for learning or as a
+starting point for other projects. If you use this repository as a base
+for your own site, please do not present it as my personal website.
