@@ -3222,9 +3222,27 @@ input, select, textarea {
 
 	}
 
+	/* Sticky top tabs */
 	#nav {
-	text-align: center;
-	margin: 2em 0 2em 0;
+	position: sticky;
+	top: 0;
+	z-index: 1000;
+	background: #fff;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;   /* 👈 vertical centering */
+
+	padding: 1.25em 0;
+	margin: 0 0 2.5em 0;
+	border-bottom: solid 2px #efefef;
+	}
+
+	/* Optional: a little spacing so content doesn't feel glued to the bar */
+	#main {
+	/* You already have padding: 4em ...; keep it,
+		but if you want the nav to align nicely, you can do: */
+	padding-top: 2em;
 	}
 	
 	#nav ul {
