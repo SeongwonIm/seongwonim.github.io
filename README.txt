@@ -1,20 +1,17 @@
 ## Seongwon Im's Personal Website
 
-This website showcases Seongwon's professional background, skills, and 
-personal interests, offering a comprehensive platform to connect with 
-colleagues, employers, and friends. It provides a complete view of 
-Seongwon's curriculum vitae, current works and projects, and collaborators.
+This repository contains the source code for Seongwon Im’s personal website. The site presents his professional profile in biostatistics and public health, including research, publications, projects, talks, and people.
 
-Credits:
-	Demo Images:
-		Unsplash (unsplash.com)
+---
 
-	Icons:
-		Font Awesome (fontawesome.io)
+## Credits
 
-	Other:
-		jQuery (jquery.com)
-		Responsive Tools (github.com/ajlkn/responsive-tools)
+- Template: Strata by HTML5 UP (html5up.net)  
+- Demo images: Unsplash (unsplash.com)  
+- Icons: Font Awesome (fontawesome.io)  
+- Libraries/Tools: jQuery (jquery.com), Responsive Tools (github.com/ajlkn/responsive-tools)  
+
+---
 
 
 ## License
@@ -28,3 +25,4 @@ for reuse.
 Forks and adaptations of the code are welcome for learning or as a
 starting point for other projects. If you use this repository as a base
 for your own site, please do not present it as my personal website.
+
