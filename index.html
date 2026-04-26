@@ -20,7 +20,7 @@
 			<div class="inner"> <!-- Go to main.css under assets/css to change the background photo -->
 				<a href="#" class="image avatar"><img src="images/me/me_2023.jpeg" alt="" /></a> <!-- Profile pic -->
 				<h1><strong>Seongwon Im, Ph.D.</strong></h1>
-				<div>Research Specialist</div>
+				<div>Research Scientist</div>
 				<div>Naval Future Innovation Research Group</div>
 			</div>
 		</header>
@@ -351,10 +351,15 @@
 			</ul>
 		
 			<!-- Copyright -->
-			<ul class="copyright">
+			<!-- <ul class="copyright">
 				<li>&copy; Seongwon Im</li>
 				<li>Design template by <a href="https://html5up.net" target="_blank">HTML5 UP</a></li>
 				<li>Last updated: January 1st, 2026</li>
+			</ul> -->
+			<ul class="copyright">
+				<li>&copy; Seongwon Im</li>
+				<li>Design template by <a href="https://html5up.net" target="_blank">HTML5 UP</a></li>
+				<li id="last-updated">Last updated: January 1st, 2026</li>
 			</ul>
 		
 			</div>
@@ -371,22 +376,46 @@
 
 			<script>
 				document.addEventListener("DOMContentLoaded", function () {
-				  const links = document.querySelectorAll('.tablink');
-				  const contents = document.querySelectorAll('.tab-content');
-			  
-				  links.forEach(link => {
-					link.addEventListener('click', e => {
-					  e.preventDefault();
-			  
-					  links.forEach(l => l.classList.remove('active'));
-					  contents.forEach(c => c.style.display = 'none');
-			  
-					  link.classList.add('active');
-					  document.getElementById('tab-' + link.dataset.tab).style.display = 'block';
+					const links = document.querySelectorAll('.tablink');
+					const contents = document.querySelectorAll('.tab-content');
+
+					links.forEach(link => {
+						link.addEventListener('click', e => {
+							e.preventDefault();
+							links.forEach(l => l.classList.remove('active'));
+							contents.forEach(c => c.style.display = 'none');
+							link.classList.add('active');
+							document.getElementById('tab-' + link.dataset.tab).style.display = 'block';
+						});
 					});
-				  });
+
+					// Date update script
+					const updateDate = () => {
+						const now = new Date();
+						const months = [
+							"January", "February", "March", "April", "May", "June",
+							"July", "August", "September", "October", "November", "December"
+						];
+
+						const month = months[now.getMonth()];
+						const day = now.getDate();
+						const year = now.getFullYear();
+						
+						// Determine the appropriate suffix for the day (st, nd, rd, th)
+						let suffix = "th";
+						if (day % 10 === 1 && day !== 11) suffix = "st";
+						else if (day % 10 === 2 && day !== 12) suffix = "nd";
+						else if (day % 10 === 3 && day !== 13) suffix = "rd";
+
+						const target = document.getElementById("last-updated");
+						if (target) {
+							target.innerText = `Last updated: ${month} ${day}${suffix}, ${year}`;
+						}
+					};
+
+					updateDate();
 				});
-			  </script>
+			</script>
 			  
 	</body>
 </html>
