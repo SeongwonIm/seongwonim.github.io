@@ -2598,7 +2598,7 @@ input, select, textarea {
 		background-image: url("images/overlay.png"), url("../../images/background/blurrygreen.jpg");
 		background-position: top left,							top left; /* Adjust the alignment*/
 		background-repeat: repeat,								no-repeat;
-		background-size: auto,								100%; /* Adjust the background size*/
+		background-size: auto,	cover; /* Adjust the background size*/
 		color: rgba(255, 255, 255, 0.5);
 		height: 100%;
 		left: 0;
