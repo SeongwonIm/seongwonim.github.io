@@ -351,15 +351,10 @@
 			</ul>
 		
 			<!-- Copyright -->
-			<!-- <ul class="copyright">
-				<li>&copy; Seongwon Im</li>
-				<li>Design template by <a href="https://html5up.net" target="_blank">HTML5 UP</a></li>
-				<li>Last updated: January 1st, 2026</li>
-			</ul> -->
 			<ul class="copyright">
 				<li>&copy; Seongwon Im</li>
 				<li>Design template by <a href="https://html5up.net" target="_blank">HTML5 UP</a></li>
-				<li id="last-updated">Last updated: January 1st, 2026</li>
+				<li>Last updated: April 25th, 2026</li>
 			</ul>
 		
 			</div>
@@ -388,32 +383,6 @@
 							document.getElementById('tab-' + link.dataset.tab).style.display = 'block';
 						});
 					});
-
-					// Date update script
-					const updateDate = () => {
-						const now = new Date();
-						const months = [
-							"January", "February", "March", "April", "May", "June",
-							"July", "August", "September", "October", "November", "December"
-						];
-
-						const month = months[now.getMonth()];
-						const day = now.getDate();
-						const year = now.getFullYear();
-						
-						// Determine the appropriate suffix for the day (st, nd, rd, th)
-						let suffix = "th";
-						if (day % 10 === 1 && day !== 11) suffix = "st";
-						else if (day % 10 === 2 && day !== 12) suffix = "nd";
-						else if (day % 10 === 3 && day !== 13) suffix = "rd";
-
-						const target = document.getElementById("last-updated");
-						if (target) {
-							target.innerText = `Last updated: ${month} ${day}${suffix}, ${year}`;
-						}
-					};
-
-					updateDate();
 				});
 			</script>
 			  
