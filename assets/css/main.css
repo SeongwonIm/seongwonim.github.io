@@ -3463,6 +3463,7 @@ input, select, textarea {
   border-radius: 0.45em;
   padding: 0.8em 1em;
   box-shadow: 0 2px 4px rgba(0,0,0,.04);
+  position: relative; /* NEW */
 }
 .talk-card .meta {
   margin-top: 0.25em;
@@ -3472,3 +3473,33 @@ input, select, textarea {
   flex-wrap: wrap;
 }
 .talk-date { color: #b2b2b2; font-size: 0.9em; }
+
+.talk-card.type-oral {
+  border-left: 4px solid #2b6cb0;
+}
+.talk-card.type-poster {
+  border-left: 4px solid #c05621;
+}
+.talk-type-label {
+  position: absolute;
+  top: 0.8em;
+  right: 1em;
+  font-size: 0.75em;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 2px 8px;
+  border-radius: 4px;
+}
+.type-oral .talk-type-label {
+  background: #ebf4ff;
+  color: #2b6cb0;
+}
+.type-poster .talk-type-label {
+  background: #fffaf0;
+  color: #c05621;
+}
+.talk-card strong {
+  display: block;
+  padding-right: 4.5em; /* leave space for the Oral/Poster label */
+}
